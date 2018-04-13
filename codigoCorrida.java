@@ -6,12 +6,12 @@ int forca = 100;
 int energia = 100; 
 int folego = 100;
 
-System.out.println("---O atleta começou o percurso---")
+System.out.println("---O atleta começou o percurso---");
 // Cada iteração no "for" abaixo é 1 km percorrido.
 for(int i=1; i<=100; i++){
     // Se a força ou a energia ou o fôlego do atleta for menor que 6%, o atleta necessita recarregar as energias... 
     if(forca < 6 || energia < 6 || folego < 6){
-	System.out.println("O atleta necessita recarregar as energias...")	
+	System.out.println("O atleta necessita recarregar as energias...");
 	// Então ele recarrega...
         // A força.
 	while(forca < 100){
@@ -37,4 +37,4 @@ for(int i=1; i<=100; i++){
     }
     System.out.println("O atleta percorreu" + i + "kilômetro(s).");
 }
-System.out.println("---O atleta completou o percurso---")
+System.out.println("---O atleta completou o percurso---");
