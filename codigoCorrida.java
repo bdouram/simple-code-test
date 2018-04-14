@@ -2,9 +2,9 @@
 System.out.println("O atleta começa a correr.");
 
 // O atleta começa com 100% de todos os três atributos: Força, energia e fôlego.
-int forca = 100; 
-int energia = 100; 
-int folego = 100;
+float forca = 100; 
+float energia = 100; 
+float folego = 100;
 
 System.out.println("---O atleta começou o percurso---");
 // Cada iteração no "for" abaixo é 1 km percorrido.
